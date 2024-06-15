@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AE9p3hqIUGQ=",
+  "success": true,
+  "projectFilePath": "/Users/Charlie/Library/Application Support/Terraria/tModLoader/ModSources/RepeatsCelesteMod/RepeatsCelesteMod.csproj",
+  "expectedPackageFiles": [
+    "/Users/Charlie/.nuget/packages/tmodloader.codeassist/0.1.5/tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
