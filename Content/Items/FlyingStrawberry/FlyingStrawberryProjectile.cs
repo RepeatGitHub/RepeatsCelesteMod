@@ -23,9 +23,9 @@ namespace RepeatsCelesteMod.Content.Items.FlyingStrawberry
 		}
 
 		public override void SetDefaults() {
-			Projectile.CloneDefaults(ProjectileID.ShadowOrb); // Copy the stats of the Zephyr Fish
+			Projectile.CloneDefaults(ProjectileID.LilHarpy); // Copy the stats of the Zephyr Fish
 
-			AIType = ProjectileID.ShadowOrb; // Mimic as the Zephyr Fish during AI.
+			AIType = ProjectileID.LilHarpy; // Mimic as the Zephyr Fish during AI.
 		}
 
 		public override bool PreAI() {
