@@ -1,1 +1,24 @@
+Projectiles.FlyingStrawberryProjectile.DisplayName: Flying Strawberry Projectile
 
+Items: {
+	Strawberry: {
+		DisplayName: Strawberry
+		Tooltip:
+			'''
+			Minor improvements to all stats
+			'Will impress your friends'
+			'''
+	}
+
+	FlyingStrawberry: {
+		Tooltip: ""
+		DisplayName: Flying Strawberry
+	}
+}
+
+Buffs: {
+	FlyingStrawberryBuff: {
+		Description: Mods.RepeatsCelesteMod.Buffs.FlyingStrawberryBuff.Description
+		DisplayName: Flying Strawberry Buff
+	}
+}
