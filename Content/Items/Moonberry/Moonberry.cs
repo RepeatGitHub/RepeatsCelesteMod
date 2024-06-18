@@ -9,7 +9,8 @@ namespace RepeatsCelesteMod.Content.Items.Moonberry
 	{
 		public override void SetDefaults() {
 			Item.CloneDefaults(ItemID.ZephyrFish); // Copy the Defaults of the Zephyr Fish Item.
-			Item.rare = ItemRarityID.LightRed;
+			Item.rare = ItemRarityID.Master;
+			Item.master = true;
 
 			Item.shoot = ModContent.ProjectileType<MoonberryProjectile>(); // "Shoot" your pet projectile.
 			Item.buffType = ModContent.BuffType<MoonberryBuff>(); // Apply buff upon usage of the Item.
