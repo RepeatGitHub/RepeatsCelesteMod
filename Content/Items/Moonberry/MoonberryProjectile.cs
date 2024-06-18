@@ -17,7 +17,7 @@ namespace RepeatsCelesteMod.Content.Items.Moonberry
 			// * To set offset and direction, use .WithOffset(x, y) and .WithSpriteDirection(-1)
 			// * To further customize the behavior and animation of the pet (as its AI does not run), you have access to a few vanilla presets in DelegateMethods.CharacterPreview to use via .WithCode(). You can also make your own, showcased in MinionBossPetProjectile
 			ProjectileID.Sets.CharacterPreviewAnimations[Projectile.type] = ProjectileID.Sets.SimpleLoop(0, 14, 5)
-				.WithOffset(-29, -12f)
+				.WithOffset(-19, -12f)
 				.WithSpriteDirection(-1)
 				.WithCode(DelegateMethods.CharacterPreview.Float);
 		}
