@@ -1,7 +1,7 @@
 Projectiles: {
-	FlyingStrawberryProjectile.DisplayName: Flying Strawberry Projectile
-	FlyingGoldenStrawberryProjectile.DisplayName: Flying Golden Strawberry Projectile
-	MoonberryProjectile.DisplayName: Moonberry Projectile
+	FlyingStrawberryProjectile.DisplayName: Flying Strawberry
+	FlyingGoldenStrawberryProjectile.DisplayName: Flying Golden Strawberry
+	MoonberryProjectile.DisplayName: Moonberry
 }
 
 Items: {
@@ -44,17 +44,17 @@ Items: {
 
 Buffs: {
 	FlyingStrawberryBuff: {
-		Description: Mods.RepeatsCelesteMod.Buffs.FlyingStrawberryBuff.Description
-		DisplayName: Flying Strawberry Buff
+		DisplayName: Flying Strawberry
+		Description: A Flying Strawberry is following you.
 	}
 
 	FlyingGoldenStrawberryBuff: {
-		DisplayName: Flying Golden Strawberry Buff
-		Description: Mods.RepeatsCelesteMod.Buffs.FlyingGoldenStrawberryBuff.Description
+		DisplayName: Flying Golden Strawberry
+		Description: A Flying Golden Strawberry is following you.
 	}
 
 	MoonberryBuff: {
-		DisplayName: Moonberry Buff
-		Description: Mods.RepeatsCelesteMod.Buffs.MoonberryBuff.Description
+		DisplayName: Moonberry
+		Description: A Moonberry is floating beside you.
 	}
 }
