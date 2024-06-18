@@ -59,6 +59,9 @@ namespace RepeatsCelesteMod.Content.Systems
 				if (nameLmao2("Theo","Alex")) {
 					yield return createItem(ItemID.GrapplingHook,1);
 				}
+				if (nameLmao1("Granny")) {
+					yield return createItem(ItemID.VanityTreeSakuraSeed,1);
+				}
             }
         }
 	}
