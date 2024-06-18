@@ -1,4 +1,8 @@
-Projectiles.FlyingStrawberryProjectile.DisplayName: Flying Strawberry Projectile
+Projectiles: {
+	FlyingStrawberryProjectile.DisplayName: Flying Strawberry Projectile
+	FlyingGoldenStrawberryProjectile.DisplayName: Flying Golden Strawberry Projectile
+	MoonberryProjectile.DisplayName: Moonberry Projectile
+}
 
 Items: {
 	Strawberry: {
@@ -11,8 +15,26 @@ Items: {
 	}
 
 	FlyingStrawberry: {
-		Tooltip: ""
 		DisplayName: Flying Strawberry
+		Tooltip:
+			'''
+			Summons a flying Strawberry
+			'It doesn't like it when you dash...'
+			'''
+	}
+
+	FlyingGoldenStrawberry: {
+		DisplayName: Flying Golden Strawberry
+		Tooltip:
+			'''
+			Summons a flying Golden Strawberry
+			'Funny how we get attached to the struggle.'
+			'''
+	}
+
+	Moonberry: {
+		DisplayName: Moonberry
+		Tooltip: ""
 	}
 }
 
@@ -20,5 +42,15 @@ Buffs: {
 	FlyingStrawberryBuff: {
 		Description: Mods.RepeatsCelesteMod.Buffs.FlyingStrawberryBuff.Description
 		DisplayName: Flying Strawberry Buff
+	}
+
+	FlyingGoldenStrawberryBuff: {
+		DisplayName: Flying Golden Strawberry Buff
+		Description: Mods.RepeatsCelesteMod.Buffs.FlyingGoldenStrawberryBuff.Description
+	}
+
+	MoonberryBuff: {
+		DisplayName: Moonberry Buff
+		Description: Mods.RepeatsCelesteMod.Buffs.MoonberryBuff.Description
 	}
 }
