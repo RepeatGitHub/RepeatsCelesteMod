@@ -7,7 +7,7 @@ namespace RepeatsCelesteMod.Content.Items.Moonberry
 	public class MoonberryProjectile : ModProjectile
 	{
 		public override void SetStaticDefaults() {
-			Main.projFrames[Projectile.type] = 9;
+			Main.projFrames[Projectile.type] = 14;
 			Main.projPet[Projectile.type] = true;
 
 			// This code is needed to customize the vanity pet display in the player select screen. Quick explanation:

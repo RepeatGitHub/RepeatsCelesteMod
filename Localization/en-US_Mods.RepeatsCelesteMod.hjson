@@ -34,7 +34,11 @@ Items: {
 
 	Moonberry: {
 		DisplayName: Moonberry
-		Tooltip: ""
+		Tooltip:
+			'''
+			Summons a floating Moonberry
+			'WOW!'
+			'''
 	}
 }
 
