@@ -1,1 +1,5 @@
-It's a cool mod that adds Celeste-related stuff.
+This mod adds four items, three being pets, as well as retextures the Gender Change Potion to be an Estrogen Pill.
+
+First off is the Strawberry, a consumable that drops from trees (when other drops are present) with about a ~10% chance.
+
+Then, there are the three pets. The first (the Flying Strawberry) is crafted with a Strawberry and some clouds, but the others are crafted from the Flying Strawberry and some post-Moonlord materials. They are the Flying Golden Strawberry (which can be obtained in any difficulty), and the Moonberry (which is only obtainable in Master or Revengeance mode).

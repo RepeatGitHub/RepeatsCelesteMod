@@ -1,0 +1,66 @@
+ItemName.GenderChangePotion: Estrogen Pill
+
+Mods: {
+	RepeatsCelesteMod: {
+		Projectiles: {
+			FlyingStrawberryProjectile.DisplayName: Flying Strawberry
+			FlyingGoldenStrawberryProjectile.DisplayName: Flying Golden Strawberry
+			MoonberryProjectile.DisplayName: Moonberry
+		}
+
+		Items: {
+			Strawberry: {
+				DisplayName: Strawberry
+				Tooltip:
+					'''
+					Minor improvements to all stats
+					'Will impress your friends'
+					'''
+			}
+
+			FlyingStrawberry: {
+				DisplayName: Flying Strawberry
+				Tooltip:
+					'''
+					Summons a flying Strawberry
+					'It doesn't like it when you dash...'
+					'''
+			}
+
+			FlyingGoldenStrawberry: {
+				DisplayName: Flying Golden Strawberry
+				Tooltip:
+					'''
+					Summons a flying Golden Strawberry
+					'Funny how we get attached to the struggle.'
+					'''
+			}
+
+			Moonberry: {
+				DisplayName: Moonberry
+				Tooltip:
+					'''
+					Summons a floating Moonberry
+					'WOW!'
+					'''
+			}
+		}
+
+		Buffs: {
+			FlyingStrawberryBuff: {
+				DisplayName: Flying Strawberry
+				Description: A Flying Strawberry is following you.
+			}
+
+			FlyingGoldenStrawberryBuff: {
+				DisplayName: Flying Golden Strawberry
+				Description: A Flying Golden Strawberry is following you.
+			}
+
+			MoonberryBuff: {
+				DisplayName: Moonberry
+				Description: A Moonberry is floating beside you.
+			}
+		}
+	}
+}

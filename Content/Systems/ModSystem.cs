@@ -65,4 +65,9 @@ namespace RepeatsCelesteMod.Content.Systems
             }
         }
 	}
+	public class Loadery : Mod{
+		public override void PostSetupContent() {
+			TextureAssets.Item[ItemID.GenderChangePotion]=ModContent.Request<Texture2D>("RepeatsCelesteMod/Content/Items/Estrogen");
+		}
+	}
 }

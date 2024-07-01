@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RepeatsCelesteMod")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1b463644d5b6c4e8ac7e987903f774f717990d5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+032731ffdc060dedfda6a81462278d6b65818fd7")]
 [assembly: System.Reflection.AssemblyProductAttribute("RepeatsCelesteMod")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RepeatsCelesteMod")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

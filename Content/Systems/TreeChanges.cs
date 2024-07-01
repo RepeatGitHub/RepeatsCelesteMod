@@ -47,7 +47,16 @@ namespace RepeatsCelesteMod.Content.Systems
         //    y++;
         //    if (!WorldGen.IsTileALeafyTreeTop(x, y) || Collision.SolidTiles(x - 2, x + 2, y - 2, y + 2))
         //        return;
-		//	  Item.NewItem(null, new Vector2(x,y), ItemType<Strawberry>());
+        //	  Item.NewItem(null, new Vector2(x,y), ItemType<Strawberry>());
         //}
-	}
+
+        public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
+        {
+            if (item.type == ItemID.GenderChangePotion) {
+                tooltips.Add(new TooltipLine(Mod, "transrights", "Instantaneously alters your body's structure. :gladeline:"));
+                tooltips.Add(new TooltipLine(Mod, "transrights", "\"Trans rights!\""));
+            }
+            base.ModifyTooltips(item, tooltips);
+        }
+    }
 }
